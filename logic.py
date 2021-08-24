@@ -1,12 +1,12 @@
-def logic(n):
-    arr = []
-    c = 15
-    for x in range(0,20):
-        x += 1
-        c += 15
-        if x == 15:
-            print('BMG')
-        arr.append(x)
-        print(x)
-    
-logic(20)
+def logic(n): 
+	hasil = 0
+	for x in range(0,n):
+	    x += 1
+	    count = [i for i in range(0,n,15)]
+	    hasil = hasil + x
+	    if x in count:
+	        print(',BMG',end=",")
+	        
+	    print(x,end="+")
+	print(' =',hasil)
+logic(50)
