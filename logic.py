@@ -1,4 +1,5 @@
-## SOLVED ##global n
+## SOLVED ##
+global n
 def logic(n):
     hasil = 0
     for x in range(0,n):
