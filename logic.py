@@ -1,5 +1,4 @@
-## SOLVED ##
-global n
+## SOLVED ##global n
 def logic(n):
     hasil = 0
     for x in range(0,n):
@@ -10,6 +9,7 @@ def logic(n):
         
         if x in count:
             print('BMG',end=",")
+            hasil -= 15
             continue
         if x in s:
             print(x, end=",")
@@ -19,4 +19,4 @@ def logic(n):
             continue
         print(x,end="+")
     print(' =',hasil)
-logic(20)
+logic(50)
