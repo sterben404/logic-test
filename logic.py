@@ -19,4 +19,4 @@ def logic(n):
             continue
         print(x,end="+")
     print(' =',hasil)
-logic(50)
+logic(20)
